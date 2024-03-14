@@ -1,0 +1,139 @@
+@media screen and (max-width: 850px) {
+    .h1-font {
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 20px;
+        background: linear-gradient(to bottom, #66ccff 0%, #ffffff 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .clock {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #2d2f41;
+        padding: 10px 30px;
+    }
+
+    .hours {
+        font-size: 70px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffffff 0%, #3399ff 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .minutes {
+        font-size: 70px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffa56c 0%, #ff7a87 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .dots {
+        font-size: 70px;
+        font-weight: 700;
+        color: azure;
+    }
+
+    .apm {
+        font-size: 20px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffffff 0%, #dbc259 100%);
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .sec {
+        font-size: 20px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #2c90a1 0%, #29b17f 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #c56ec9 0%, #a556c5 100%);
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .h1-font {
+        font-weight: 700;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background: linear-gradient(to bottom, #66ccff 0%, #ffffff 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .clock {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: #2d2f41;
+        padding: 10px 10px;
+    }
+
+    .hours {
+        font-size: 40px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffffff 0%, #3399ff 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .minutes {
+        font-size: 40px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffa56c 0%, #ff7a87 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .dots {
+        font-size: 40px;
+        font-weight: 700;
+        color: azure;
+    }
+
+    .apm {
+        font-size: 10px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #ffffff 0%, #dbc259 100%);
+        background-clip: text;
+        color: transparent;
+        margin-bottom: 10px;
+    }
+
+    .sec {
+        font-size: 10px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #2c90a1 0%, #29b17f 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 700;
+        background: linear-gradient(to bottom, #c56ec9 0%, #a556c5 100%);
+        background-clip: text;
+        color: transparent;
+    }
+    .d-flex {
+        margin-left: 5px;
+    }
+}
